@@ -1,0 +1,114 @@
+{
+  "apim-request-id": "2c1dae30-2f49-4b51-8178-4658394e8d48",
+  "content-length": "1340",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "denseCaptionsResult": {
+    "values": [
+      {
+        "text": "a man and woman in a grocery store",
+        "confidence": 0.8689022660255432,
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 710
+        }
+      },
+      {
+        "text": "a man holding a bunch of peanuts",
+        "confidence": 0.7539079785346985,
+        "boundingBox": {
+          "x": 143,
+          "y": 79,
+          "w": 324,
+          "h": 358
+        }
+      },
+      {
+        "text": "a woman holding a phone",
+        "confidence": 0.7215256690979004,
+        "boundingBox": {
+          "x": 576,
+          "y": 40,
+          "w": 267,
+          "h": 458
+        }
+      },
+      {
+        "text": "a girl in a purple hat",
+        "confidence": 0.704962432384491,
+        "boundingBox": {
+          "x": 823,
+          "y": 224,
+          "w": 174,
+          "h": 315
+        }
+      },
+      {
+        "text": "a man and woman standing in a grocery store",
+        "confidence": 0.847222089767456,
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "w": 1005,
+          "h": 695
+        }
+      },
+      {
+        "text": "a person holding a phone in front of a shelf of avocados",
+        "confidence": 0.7461400032043457,
+        "boundingBox": {
+          "x": 0,
+          "y": 357,
+          "w": 993,
+          "h": 339
+        }
+      },
+      {
+        "text": "a man with long hair smiling",
+        "confidence": 0.7153390049934387,
+        "boundingBox": {
+          "x": 193,
+          "y": 82,
+          "w": 151,
+          "h": 151
+        }
+      },
+      {
+        "text": "a hand holding a bunch of garlic",
+        "confidence": 0.735765278339386,
+        "boundingBox": {
+          "x": 427,
+          "y": 220,
+          "w": 52,
+          "h": 104
+        }
+      },
+      {
+        "text": "a shelf with bottles of food",
+        "confidence": 0.6195970177650452,
+        "boundingBox": {
+          "x": 63,
+          "y": 0,
+          "w": 921,
+          "h": 121
+        }
+      },
+      {
+        "text": "a close-up of a woman holding a phone",
+        "confidence": 0.8263980746269226,
+        "boundingBox": {
+          "x": 600,
+          "y": 193,
+          "w": 156,
+          "h": 270
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "width": 1024,
+    "height": 710
+  }
+}
