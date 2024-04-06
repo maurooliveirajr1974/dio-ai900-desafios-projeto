@@ -1,3 +1,4 @@
+
 # dio-ai900-desafios-projeto
 DIO - Desafios de Projeto do Microsoft Azure AI-900 - AI Fundamentals
 
@@ -50,3 +51,32 @@ Resultado: O algoritmo detectou muito mais elementos na foto (todas as 3 peossas
 - A close-up of a woman holding a phone
 
 8) Salvei o resultado da detecção nos arquivos **resultado-add-captions-to-images.json** e **store-camera-4-com-as-deteccoes-vision-estudio.png**.
+
+### Desafio Módulo - 04 - Análise de Sentimentos com Language Studio no Azure AI
+
+**Branch: desafio-modulo-04**
+
+Para realizar este desafio eu segui as instruções da página do desafio no Microsoft Learn:
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
+
+1) Criei um novo recurso do Azure Cognitive Services  chamado ***desafio-ai900-analise-sentimentos***.
+
+2) Acessei o portal do *Language Studio* no link https://language.cognitive.azure.com
+
+3) Criei um novo recurso de linguagem
+
+4) Selecionei a opção **Analyze sentiment and opinions**. Escolhi o idiona Português (Brasil)
+
+5) Digitei o a frase: *"Eu estou muito animado para finalizar o Bootcamp da DIO e conquistar a minha Certificação AI-900 Azure AI Fundanentals!"* e executei a Análise.
+
+6) O resultado foi:
+**Positive**
+Confidence: **95.00%**
+
+**95.00% POSITIVE** 4.00% NEUTRAL 1.00% NEGATIVE
+
+7) Achei muito interessante essa análise de sentimentos do texto. Muitas possibilidades!! Pensei em algo voltado para análise da Pirâmide de Maslow (Hierarquia das Necessidades):
+
+https://pt.wikipedia.org/wiki/Hierarquia_de_necessidades_de_Maslow
+
