@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # dio-ai900-desafios-projeto
 DIO - Desafios de Projeto do Microsoft Azure AI-900 - AI Fundamentals
 
@@ -106,3 +111,19 @@ Esse recurso do Azure AI Search é fantástico! Fiquei imaginando se eu tivesse 
 
 8) O arquivo JSON com o resultado da pesquisa está na branch em */desafio-modulo-05/results*
 
+### Desafio Módulo - 05 - Parte 2 - Explorando os Recursos de IA Generativa com Copilot e OpenAI
+
+**Branch: desafio-modulo-05-parte-02**
+
+Para realizar este desafio eu segui as instruções da página do desafio no Microsoft Learn:
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/10-document-intelligence.html
+
+1) Criei um novo recurso Azure AI - Document Intelligence Studio.
+
+2) Acessei o link https://aka.ms/mslearn-receipt e fiz o download de uma amostra de documento (recibo de compras) para análise (receipt.jpg). Dentro da branch ele está em */desafio-modulo-05-parte-02/inputs*
+
+3) Subi a imagem para o recurso do Document Intelligence Studio que criei para esse desafio.
+
+4) Após executar a análise do documento o algoritmo conseguiu detectar todos os elementos do recibo com uma acurácia de até **99,50%**:
+Todos os prints de tela com as evidências após o teste e também os arquivos JSON e Python gerados pelo Document Intelligence Studio estão na branch em */desafio-modulo-05-parte-02/output*
