@@ -1,4 +1,3 @@
-
 # dio-ai900-desafios-projeto
 DIO - Desafios de Projeto do Microsoft Azure AI-900 - AI Fundamentals
 
@@ -79,4 +78,31 @@ Confidence: **95.00%**
 7) Achei muito interessante essa análise de sentimentos do texto. Muitas possibilidades!! Pensei em algo voltado para análise da Pirâmide de Maslow (Hierarquia das Necessidades):
 
 https://pt.wikipedia.org/wiki/Hierarquia_de_necessidades_de_Maslow
+
+### Desafio Módulo - 05 - Análise de Sentimentos com Language Studio no Azure AI
+
+**Branch: desafio-modulo-05**
+
+Para realizar este desafio eu segui as instruções da página do desafio no Microsoft Learn:
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
+
+1) Criei um novo recurso Azure AI Search.
+
+2) Criei um novo recurso Azure AI Services.
+
+3) Criei um novo Contâiner.
+
+4) Baixei e descompactei o arquivo reviews.zip.   Dentro da branch eles estão em */desafio-modulo-05/reviews*
+
+5) Carreguei os arquivos no Contâiner criado para o desafio.
+
+6) Importei os dados para o meu Azure AI Search.
+
+7) Acessei o coffee Indexer e pesquisei pela "love". Ele me retornou em formato JSON os resultados das avaliações dos clientes "adoram meu café e o serviço prestado". 
+Ex:   *"content": "\n\n\nReview: My favorite part about going to Fourth Coffee is the atmosphere. **I love** the warm lights and plants. It’s a **great place to go get a cup of coffee while working on your next business idea or with friends at school.** It’s also right next to the University hub, which makes it so easy to access for students. It just gets so busy on the weekends! I wish it was not so crowded. Since they started **offering amazing breakfast sandwiches**, I wouldn’t try to go get a coffee Saturday morning.  \nDate: September 1, 2018\nLocation: Los Angeles, California \nimage1.png\n\n\n\nimage2.png\n\n\n\n"* 
+
+Esse recurso do Azure AI Search é fantástico! Fiquei imaginando se eu tivesse um negócio e tivesse que analisar todas as avaliações dos meus clientes no Google, por exemplo e ter que pesquisar todos os posts desses mesmos clientes nas minhas redes sociais. Este recurso seria e extrema importância para a apuração dos dados de uma forma rápida e inteligente.
+
+8) O arquivo JSON com o resultado da pesquisa está na branch em */desafio-modulo-05/results*
 
