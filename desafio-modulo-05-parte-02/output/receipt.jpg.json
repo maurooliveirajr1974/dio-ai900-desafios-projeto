@@ -1,0 +1,1150 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2024-04-07T18:12:04Z",
+	"lastUpdatedDateTime": "2024-04-07T18:12:06Z",
+	"analyzeResult": {
+		"apiVersion": "2024-02-29-preview",
+		"modelId": "prebuilt-receipt",
+		"stringIndexType": "utf16CodeUnit",
+		"content": "Northwind Traders\n123 Main Street\n555-123-4567\n2/17/2020 13:07\n1 Apple\n$0.90\n1 Orange\n$0.80\nSub-Total\n$1.70\nTax\n$0.17\nTotal\n$1.87",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0,
+				"width": 331,
+				"height": 523,
+				"unit": "pixel",
+				"words": [
+					{
+						"content": "Northwind",
+						"polygon": [
+							20,
+							17,
+							141,
+							17,
+							141,
+							45,
+							20,
+							45
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 0,
+							"length": 9
+						}
+					},
+					{
+						"content": "Traders",
+						"polygon": [
+							152,
+							17,
+							235,
+							17,
+							235,
+							45,
+							152,
+							45
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 10,
+							"length": 7
+						}
+					},
+					{
+						"content": "123",
+						"polygon": [
+							18,
+							73,
+							52,
+							73,
+							52,
+							96,
+							18,
+							96
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 18,
+							"length": 3
+						}
+					},
+					{
+						"content": "Main",
+						"polygon": [
+							56,
+							73,
+							106,
+							73,
+							106,
+							95,
+							56,
+							96
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 22,
+							"length": 4
+						}
+					},
+					{
+						"content": "Street",
+						"polygon": [
+							114,
+							73,
+							173,
+							74,
+							172,
+							96,
+							113,
+							95
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 27,
+							"length": 6
+						}
+					},
+					{
+						"content": "555-123-4567",
+						"polygon": [
+							16,
+							128,
+							148,
+							128,
+							148,
+							150,
+							16,
+							151
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 34,
+							"length": 12
+						}
+					},
+					{
+						"content": "2/17/2020",
+						"polygon": [
+							18,
+							183,
+							119,
+							184,
+							119,
+							205,
+							19,
+							205
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 47,
+							"length": 9
+						}
+					},
+					{
+						"content": "13:07",
+						"polygon": [
+							136,
+							184,
+							188,
+							183,
+							188,
+							205,
+							136,
+							205
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 57,
+							"length": 5
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							19,
+							267,
+							30,
+							267,
+							30,
+							290,
+							19,
+							290
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 63,
+							"length": 1
+						}
+					},
+					{
+						"content": "Apple",
+						"polygon": [
+							34,
+							267,
+							90,
+							267,
+							90,
+							290,
+							34,
+							290
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 65,
+							"length": 5
+						}
+					},
+					{
+						"content": "$0.90",
+						"polygon": [
+							167,
+							264,
+							222,
+							264,
+							222,
+							289,
+							167,
+							289
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 71,
+							"length": 5
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							19,
+							322,
+							30,
+							322,
+							30,
+							344,
+							19,
+							344
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 77,
+							"length": 1
+						}
+					},
+					{
+						"content": "Orange",
+						"polygon": [
+							34,
+							322,
+							103,
+							324,
+							104,
+							345,
+							35,
+							344
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 79,
+							"length": 6
+						}
+					},
+					{
+						"content": "$0.80",
+						"polygon": [
+							166,
+							320,
+							221,
+							320,
+							221,
+							343,
+							166,
+							343
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 86,
+							"length": 5
+						}
+					},
+					{
+						"content": "Sub-Total",
+						"polygon": [
+							59,
+							378,
+							153,
+							377,
+							153,
+							397,
+							60,
+							397
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 92,
+							"length": 9
+						}
+					},
+					{
+						"content": "$1.70",
+						"polygon": [
+							170,
+							375,
+							223,
+							375,
+							223,
+							397,
+							170,
+							397
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 102,
+							"length": 5
+						}
+					},
+					{
+						"content": "Tax",
+						"polygon": [
+							61,
+							405,
+							93,
+							406,
+							92,
+							423,
+							60,
+							422
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 108,
+							"length": 3
+						}
+					},
+					{
+						"content": "$0.17",
+						"polygon": [
+							170,
+							403,
+							223,
+							403,
+							223,
+							425,
+							170,
+							425
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 112,
+							"length": 5
+						}
+					},
+					{
+						"content": "Total",
+						"polygon": [
+							61,
+							458,
+							109,
+							458,
+							109,
+							479,
+							61,
+							479
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 118,
+							"length": 5
+						}
+					},
+					{
+						"content": "$1.87",
+						"polygon": [
+							170,
+							457,
+							224,
+							457,
+							224,
+							480,
+							170,
+							480
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 124,
+							"length": 5
+						}
+					}
+				],
+				"lines": [
+					{
+						"content": "Northwind Traders",
+						"polygon": [
+							20,
+							16,
+							235,
+							16,
+							234,
+							44,
+							20,
+							44
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "123 Main Street",
+						"polygon": [
+							15,
+							73,
+							172,
+							73,
+							172,
+							96,
+							15,
+							95
+						],
+						"spans": [
+							{
+								"offset": 18,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "555-123-4567",
+						"polygon": [
+							15,
+							128,
+							148,
+							128,
+							148,
+							150,
+							15,
+							150
+						],
+						"spans": [
+							{
+								"offset": 34,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "2/17/2020 13:07",
+						"polygon": [
+							17,
+							183,
+							188,
+							183,
+							188,
+							204,
+							17,
+							205
+						],
+						"spans": [
+							{
+								"offset": 47,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "1 Apple",
+						"polygon": [
+							18,
+							266,
+							90,
+							267,
+							90,
+							289,
+							18,
+							289
+						],
+						"spans": [
+							{
+								"offset": 63,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "$0.90",
+						"polygon": [
+							167,
+							265,
+							223,
+							264,
+							223,
+							289,
+							167,
+							288
+						],
+						"spans": [
+							{
+								"offset": 71,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "1 Orange",
+						"polygon": [
+							17,
+							322,
+							104,
+							323,
+							104,
+							344,
+							17,
+							343
+						],
+						"spans": [
+							{
+								"offset": 77,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$0.80",
+						"polygon": [
+							166,
+							320,
+							222,
+							320,
+							222,
+							343,
+							166,
+							343
+						],
+						"spans": [
+							{
+								"offset": 86,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "Sub-Total",
+						"polygon": [
+							58,
+							377,
+							152,
+							377,
+							152,
+							396,
+							58,
+							396
+						],
+						"spans": [
+							{
+								"offset": 92,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "$1.70",
+						"polygon": [
+							165,
+							375,
+							225,
+							375,
+							225,
+							397,
+							165,
+							397
+						],
+						"spans": [
+							{
+								"offset": 102,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "Tax",
+						"polygon": [
+							59,
+							405,
+							93,
+							406,
+							93,
+							423,
+							59,
+							422
+						],
+						"spans": [
+							{
+								"offset": 108,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "$0.17",
+						"polygon": [
+							170,
+							403,
+							223,
+							403,
+							223,
+							425,
+							170,
+							425
+						],
+						"spans": [
+							{
+								"offset": 112,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "Total",
+						"polygon": [
+							58,
+							458,
+							110,
+							458,
+							109,
+							479,
+							57,
+							479
+						],
+						"spans": [
+							{
+								"offset": 118,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "$1.87",
+						"polygon": [
+							170,
+							457,
+							225,
+							457,
+							225,
+							480,
+							170,
+							480
+						],
+						"spans": [
+							{
+								"offset": 124,
+								"length": 5
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 129
+					}
+				]
+			}
+		],
+		"styles": [],
+		"documents": [
+			{
+				"docType": "receipt.retailMeal",
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0,
+							0,
+							331,
+							0,
+							331,
+							523,
+							0,
+							523
+						]
+					}
+				],
+				"fields": {
+					"Items": {
+						"type": "array",
+						"valueArray": [
+							{
+								"type": "object",
+								"valueObject": {
+									"Description": {
+										"type": "string",
+										"valueString": "Apple",
+										"content": "Apple",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													34,
+													267,
+													90,
+													267,
+													90,
+													290,
+													34,
+													290
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 65,
+												"length": 5
+											}
+										]
+									},
+									"Quantity": {
+										"type": "number",
+										"valueNumber": 1,
+										"content": "1",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													19,
+													267,
+													30,
+													267,
+													30,
+													290,
+													19,
+													290
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 63,
+												"length": 1
+											}
+										]
+									},
+									"TotalPrice": {
+										"type": "currency",
+										"valueCurrency": {
+											"currencySymbol": "$",
+											"amount": 0.9,
+											"currencyCode": "USD"
+										},
+										"content": "$0.90",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													167,
+													264,
+													222,
+													264,
+													222,
+													289,
+													167,
+													289
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 71,
+												"length": 5
+											}
+										]
+									}
+								},
+								"content": "1 Apple\n$0.90",
+								"boundingRegions": [
+									{
+										"pageNumber": 1,
+										"polygon": [
+											19,
+											264,
+											222,
+											264,
+											222,
+											290,
+											19,
+											290
+										]
+									}
+								],
+								"confidence": 0.995,
+								"spans": [
+									{
+										"offset": 63,
+										"length": 13
+									}
+								]
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Description": {
+										"type": "string",
+										"valueString": "Orange",
+										"content": "Orange",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													34,
+													322,
+													103,
+													324,
+													104,
+													345,
+													35,
+													344
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 79,
+												"length": 6
+											}
+										]
+									},
+									"Quantity": {
+										"type": "number",
+										"valueNumber": 1,
+										"content": "1",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													19,
+													322,
+													30,
+													322,
+													30,
+													344,
+													19,
+													344
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 77,
+												"length": 1
+											}
+										]
+									},
+									"TotalPrice": {
+										"type": "currency",
+										"valueCurrency": {
+											"currencySymbol": "$",
+											"amount": 0.8,
+											"currencyCode": "USD"
+										},
+										"content": "$0.80",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"polygon": [
+													166,
+													320,
+													221,
+													320,
+													221,
+													343,
+													166,
+													343
+												]
+											}
+										],
+										"confidence": 0.995,
+										"spans": [
+											{
+												"offset": 86,
+												"length": 5
+											}
+										]
+									}
+								},
+								"content": "1 Orange\n$0.80",
+								"boundingRegions": [
+									{
+										"pageNumber": 1,
+										"polygon": [
+											19,
+											320,
+											221,
+											320,
+											221,
+											345,
+											19,
+											345
+										]
+									}
+								],
+								"confidence": 0.995,
+								"spans": [
+									{
+										"offset": 77,
+										"length": 14
+									}
+								]
+							}
+						]
+					},
+					"MerchantAddress": {
+						"type": "address",
+						"content": "123 Main Street",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									18,
+									73,
+									173,
+									73,
+									173,
+									96,
+									18,
+									96
+								]
+							}
+						],
+						"confidence": 0.993,
+						"spans": [
+							{
+								"offset": 18,
+								"length": 15
+							}
+						],
+						"valueAddress": {
+							"houseNumber": "123",
+							"road": "Main Street",
+							"streetAddress": "123 Main Street"
+						}
+					},
+					"MerchantName": {
+						"type": "string",
+						"valueString": "Northwind Traders",
+						"content": "Northwind Traders",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									20,
+									17,
+									235,
+									17,
+									235,
+									45,
+									20,
+									45
+								]
+							}
+						],
+						"confidence": 0.994,
+						"spans": [
+							{
+								"offset": 0,
+								"length": 17
+							}
+						]
+					},
+					"MerchantPhoneNumber": {
+						"type": "phoneNumber",
+						"valuePhoneNumber": "+15551234567",
+						"content": "555-123-4567",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									16,
+									128,
+									148,
+									128,
+									148,
+									150,
+									16,
+									151
+								]
+							}
+						],
+						"confidence": 0.995,
+						"spans": [
+							{
+								"offset": 34,
+								"length": 12
+							}
+						]
+					},
+					"Subtotal": {
+						"type": "currency",
+						"valueCurrency": {
+							"currencySymbol": "$",
+							"amount": 1.7,
+							"currencyCode": "USD"
+						},
+						"content": "$1.70",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									170,
+									375,
+									223,
+									375,
+									223,
+									397,
+									170,
+									397
+								]
+							}
+						],
+						"confidence": 0.995,
+						"spans": [
+							{
+								"offset": 102,
+								"length": 5
+							}
+						]
+					},
+					"Total": {
+						"type": "currency",
+						"valueCurrency": {
+							"currencySymbol": "$",
+							"amount": 1.87,
+							"currencyCode": "USD"
+						},
+						"content": "$1.87",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									170,
+									457,
+									224,
+									457,
+									224,
+									480,
+									170,
+									480
+								]
+							}
+						],
+						"confidence": 0.991,
+						"spans": [
+							{
+								"offset": 124,
+								"length": 5
+							}
+						]
+					},
+					"TotalTax": {
+						"type": "currency",
+						"valueCurrency": {
+							"currencySymbol": "$",
+							"amount": 0.17,
+							"currencyCode": "USD"
+						},
+						"content": "$0.17",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									170,
+									403,
+									223,
+									403,
+									223,
+									425,
+									170,
+									425
+								]
+							}
+						],
+						"confidence": 0.995,
+						"spans": [
+							{
+								"offset": 112,
+								"length": 5
+							}
+						]
+					},
+					"TransactionDate": {
+						"type": "date",
+						"valueDate": "2020-02-17",
+						"content": "2/17/2020",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									18,
+									183,
+									119,
+									184,
+									119,
+									205,
+									19,
+									205
+								]
+							}
+						],
+						"confidence": 0.995,
+						"spans": [
+							{
+								"offset": 47,
+								"length": 9
+							}
+						]
+					},
+					"TransactionTime": {
+						"type": "time",
+						"valueTime": "13:07:00",
+						"content": "13:07",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									136,
+									184,
+									188,
+									183,
+									188,
+									205,
+									136,
+									205
+								]
+							}
+						],
+						"confidence": 0.995,
+						"spans": [
+							{
+								"offset": 57,
+								"length": 5
+							}
+						]
+					}
+				},
+				"confidence": 0.912,
+				"spans": [
+					{
+						"offset": 0,
+						"length": 129
+					}
+				]
+			}
+		],
+		"contentFormat": "text"
+	}
+}
